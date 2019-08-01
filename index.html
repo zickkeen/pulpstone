@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width; maximum-scale=1; minimum-scale=1;" />
+<meta http-equiv="refresh" content="3; URL=../pulpstone/status.php" />
+<style type="text/css">
+body{
+	background-color:black;
+	text-align:center;
+	font-family: "helvetica";
+	overflow: hidden;
+	margin: 0;
+}
+.load-gambar {
+	display:block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -150px;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+@keyframes circle {
+	from {
+		transform: scale(0)
+	}
+	to {
+		transform: scale(6)
+	}
+}
+.circle {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border: 20px solid #04A4D5;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+.one {
+  animation: circle 4s infinite linear;
+}
+.two {
+  animation: circle 3s infinite linear;
+}
+.three {
+  animation: circle 2s infinite linear;
+}
+</style>
+</head>
+<body>
+<div class="load-gambar">
+<img src="images/pulpstone.png" width="250px" height="auto" alt="Pulpstone">
+</div>
+<div class="circle one"></div>
+<div class="circle two"></div>
+<div class="circle three"></div>
+</body>
+</html>

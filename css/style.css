@@ -1,0 +1,587 @@
+@charset "utf-8";
+/***************************************
+PULPSTONE CSS
+Dirancang oleh Andriawan 2016
+email: dinandria@gmail.com
+***************************************/
+
+/***************************************
+TUBUH
+***************************************/
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background: #19405c;
+	/*
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to bottom, #19405c, #769ec3, #c6d6e6);
+    background: -moz-linear-gradient( to bottom, #19405c, #769ec3, #c6d6e6);
+    background: -ms-linear-gradient( to bottom, #19405c, #769ec3, #c6d6e6);
+    background: -o-linear-gradient( to bottom, #19405c, #769ec3, #c6d6e6);
+    background: linear-gradient( to bottom, #19405c, #769ec3, #c6d6e6);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: center;*/
+    margin: 0;
+    width: 100%;
+    height: auto;
+    text-align:center;
+	font-family: "tahoma";
+	font-size: small;
+}
+/***************************************
+FOOTER LINK
+***************************************/
+.footer{
+	font-size:small;
+	margin-top: 10px;
+	min-height: 35px;
+	max-height: 40px;
+	position: fixed; 
+	display:block;
+	bottom:0%;
+	width:100%;
+	padding:5px;
+	color: white;
+	background-color: #2F2F2F;
+}
+/* unvisited link */
+.footer a:link {
+    color: white;
+}
+
+/* visited link */
+.footer a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.footer a:hover {
+    color: #04A4D5;
+}
+
+/* selected link */
+.footer a:active {
+    color: white;
+}
+/***************************************
+LOGIN
+***************************************/
+.login-box {
+	transition: all 1.0s ease;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	background-color: rgba(255,255,255,0.5);
+	margin-right: auto ;
+	margin-left: auto ;
+	
+	padding: 10px;
+	border: 1px solid #dbd9ca;
+	top: 50%;
+	left: 50%;
+	width:18em;
+	height:20em;
+	/*margin-top: -12em; /*set to a negative number 1/2 of your height*/
+	/*margin-left: -9em; /*set to a negative number 1/2 of your width*/
+	 
+	border: 1pxsolid #ccc; 
+}
+/***************************************
+MAIN BOX
+***************************************/
+.main-box {
+	transition: all 1.0s ease;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	background-color: rgba(255,255,255,0.5);
+	max-width:400px;
+	min-width:300px;
+	height:auto;
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-bottom:70px;
+	padding:10px;
+	border: 1px solid #dbd9ca;
+	display: inline-block;
+	word-wrap: break-word;
+}
+/*.main-box:hover{
+    transition: all 1.0s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+}
+.sub-box {
+    transition: all 1.0s ease;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border: #solid 10px #000;
+    background-color: rgba(255,255,255,0.5);
+    max-width:400px;
+    height:auto;
+    margin-left: auto ;
+    margin-right: auto ;
+	margin-top: 10px ;
+    padding:10px;
+    border-color: #dbd9ca;
+    border: 1px solid #ccc;
+}
+.glow{
+    font-size:16px;
+    font-color:black;
+    color:black;
+    transition: all 0.3s ease-in;
+    text-decoration:none;
+}
+.glow:hover{
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #0000FF;
+    -webkit-fill-color: #0000FF;
+    text-shadow: 1px 0px 20px blue;
+    color: #FFFF00;
+}
+*/
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+/***************************************
+INNER
+***************************************/
+.header{
+	width: 100%;
+	height: auto;
+	background-color: #071c4d;
+	/*background: url("images/h-bg.png");*/
+	display: inline-block;
+	-webkit-box-shadow: 2px 2px 4px 2px #000000;
+	box-shadow: 2px 2px 4px 2px #000000;
+}
+.main-inner{
+	max-width:360px;
+	min-width: 300px;
+	height:auto;
+	border-color: #dbd9ca;
+	border: 1px solid #ccc;
+	text-align:center;padding:10px;
+	word-wrap: break-word;
+}
+.ussd-inner{
+	max-width:370px;
+	height:auto;
+	background-color:white;
+	border-color: #dbd9ca;
+	border: 1px solid #ccc;
+	text-align:left;padding:10px;
+	word-wrap: break-word;
+}
+.msg-show{
+	margin-left:10px; 
+	background-color:white;
+	word-wrap: break-word; 
+	max-width:370px;
+	height:195px;
+	border:0px solid #000;
+	text-align:left;
+}
+/***************************************
+FORMULIR
+***************************************/
+.form-box{
+	display:inline-block;
+	text-align:left;
+}
+textarea{
+	width:100%;
+	background-color:white;
+	resize: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+select{
+	height:25px;
+	border-radius:5px;
+    -webkit-border-radius: 5px;
+	background-color:orange;
+	padding-left:2px;
+	padding-right:2px;
+}
+label {
+  display: block;
+  height:25px;
+  line-height:25px;
+  padding-left: 5px;
+  text-indent: -5px;
+}
+input{
+    border: 0px solid purple; 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+input[type=submit] {
+	height:25px;
+	line-height:25px;
+    border:0 none;
+    cursor:pointer;
+	padding-left:5px;
+	padding-right:5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=reset] {
+	height:25px;
+	line-height:25px;
+    border:0 none;
+    cursor:pointer;
+	padding-left:5px;
+	padding-right:5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=submit]:hover { 
+    background-color: #04A4D5;
+    cursor:pointer;
+}
+input[type=text] {
+	height:25px;
+	line-height:25px;
+    border:0 none;
+    cursor:pointer;
+	padding-left:5px;
+	padding-right:5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=password] {
+	height:25px;
+	line-height:25px;
+    border:0 none;
+    cursor:pointer;
+	padding-left:5px;
+	padding-right:5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=file] {
+	height:25px;
+	line-height:25px;
+    border:0 none;
+    cursor:pointer;
+	padding-left:2px;
+	padding-right:5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+.btn{
+	width:90px;
+}
+.btn-wide{
+	width:200px;
+}
+/***************************************
+BERDAMPINGAN -- CIEEEEE
+***************************************/
+
+#side-by-side 
+{
+    text-align:center;
+    display:inline-block;
+}
+#side-by-side .sub
+{
+	float:left;
+	text-align:center;
+	margin-right:10px;
+	min-width:300px;
+	max-width:360px;
+}
+.ConnectionBox
+{
+
+}
+/*.ConnectionBox:hover
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border: #solid 5px #000;
+}
+*/
+.huerotate{
+    -webkit-filter: none;
+    -webkit-transition: all 3s ease-in-out;
+}
+.huerotate:hover {
+    -webkit-filter: hue-rotate(235deg);
+    -webkit-transition: all 3s ease;
+}
+
+/***************************************
+LOG DIAL DAN VPN
+***************************************/
+#dial {
+	background-color:white;
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+	max-width:360px;
+	min-width:300px;
+	height:100px;
+	border:0px solid #000;
+	text-align:left;
+	padding:10px;
+}
+#vpn {
+	background-color:white;
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+	max-width:360px;
+	min-width:300px;
+	height:100px;
+	border:0px solid #000;
+	text-align:left;
+	padding:10px;
+}
+
+/***************************************
+FUNGSI MULTIMEDIA
+***************************************/
+.playlist{
+	background:rgba(4, 164, 213, 1.0);
+	max-width:360px;
+	min-width:300px;
+	height:150px;
+	padding:5px;
+	background-color: #071c4d;
+}
+.playlist ol{
+	display:inline;
+}
+.playlist li{
+	color:white;
+	text-align:left;
+	padding:10px;
+	margin-left: 30px;
+}
+.playlist li a{
+	text-decoration:none;
+	color:white;
+}
+.playlist li a:hover{
+	text-decoration:none;
+	color:yellow;
+}
+.playlist li a:active{
+	color:blue;
+}
+.play{
+	color:yellow;
+	background-color;red;
+}
+.scroll {
+	overflow-x: auto;
+	overflow-y: auto;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.075);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.075);
+
+}
+.scroll::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(4,164,213,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.scroll::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(4,164,213,0.4); 
+}
+
+/* audio */
+audio{
+  background-color:#071c4d;
+  width:370px;
+}
+/* video */
+.videoarea {
+	float: center;
+	width: 370px   !important;
+	height: auto   !important;
+	border:1px solid #EBEBFA;
+	background-color: black;
+   
+}
+.img-header{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+/***************************************
+NAVIGASI
+***************************************/
+/*Strip the ul of padding and list styling*/
+ ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	display:inline-block;
+}
+
+/*Create a horizontal list with spacing*/
+ .nav li {
+	display:block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+ .nav li a {
+	display:block;
+	min-width:110px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.2em;
+	color: #fff;
+	background: #071c4d;
+	text-decoration: none;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/*Hover state for top level links*/
+.nav li:hover a {
+	background: rgb(4,164,213);
+	text-align: left;
+}
+
+/*Style for dropdown links*/
+ .nav li:hover ul a {
+	background: rgb(243,243,243);
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+
+/*Hover state for dropdown links*/
+ .nav li:hover ul a:hover {
+	background: rgb(4,164,213);
+	color: #fff;
+	text-align: left;
+	display:block;
+}
+
+/*Hide dropdown links until they are needed*/
+ .nav li ul {
+	display: none;
+}
+
+/*Make dropdown links vertical*/
+ .nav li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+ .nav li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ ul li a:hover + .hidden, .hidden:hover {
+	position: absolute;
+	display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+ .show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.0em;
+	text-decoration: none;
+	color: #fff;
+	background: #04A4D5;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+	
+}
+
+/*Hide checkbox
+input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}*/
+/*hidden navigasi*/
+.hid-nav{
+	display: none;
+    -webkit-appearance: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+	display: block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 700px){
+	/*Make dropdown links appear inline*/
+	ul {
+	position: static;
+	display: none;
+	}
+	/*Create vertical spacing*/
+	.nav li {
+		margin-bottom: 0px;
+	}
+	/*Make all menu links full width*/
+	ul li, .nav li a {
+		width: 100% !important;
+		height:40px;
+		line-height:40px;
+		display:block;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+	/* menampilkan audio pada perangkat mobile */
+	audio{
+	background-color:#071c4d;
+	width:340px;
+	}
+	/* menampilkan video pada perangkat mobile*/
+	.videoarea {
+	float: center;
+	width: 340px   !important;
+	height: auto   !important;
+	border:1px solid #EBEBFA;
+	background-color: black;
+   
+	}
+}?

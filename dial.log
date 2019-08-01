@@ -1,0 +1,17 @@
+01-08-19 11:44:21 Profile : kuota
+01-08-19 11:44:21 APN  : internet
+01-08-19 11:44:21 IP hunter : tidak aktif
+01-08-19 11:44:21 Auto kodok : tidak aktif
+01-08-19 11:44:21 Mode payload : aktif
+01-08-19 11:44:21 Non Dialup Interface : 3g
+01-08-19 11:44:21 IP Source : 3g-3g
+01-08-19 11:44:21 Connecting...
+01-08-19 11:44:33 IP tidak terdeteksi, timeout = 9
+<b style='color:red;'>Pastikan Interface dan IP Source sesuai dengan Network Interface di LuCI</b>
+01-08-19 11:44:33 Connecting ...
+01-08-19 11:44:50 IP tidak terdeteksi, timeout = 25
+<b style='color:red;'>Pastikan Interface dan IP Source sesuai dengan Network Interface di LuCI</b>
+01-08-19 11:44:50 Connecting ...
+01-08-19 11:45:39 IP tidak terdeteksi, timeout = 45
+<b style='color:red;'>Pastikan Interface dan IP Source sesuai dengan Network Interface di LuCI</b>
+01-08-19 11:45:39 Connecting ...
